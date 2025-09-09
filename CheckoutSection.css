@@ -1,0 +1,32 @@
+/* CheckoutSection.css */
+
+.theme-card {
+    background-color: #f0f8ff !important;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .theme-card:hover {
+    transform: scale(1.01);
+    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.2);
+  }
+  
+  .price-card {
+    background-color: #e6f2ff;
+    border: 1px solid #cce0ff;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .price-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.15);
+    transform: translateY(-4px);
+  }
+  
+  .fade-in {
+    animation: fadeIn 0.6s ease-in;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  

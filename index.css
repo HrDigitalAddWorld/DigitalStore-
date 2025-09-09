@@ -1,0 +1,389 @@
+#Header {
+  background: linear-gradient(rgb(0, 0, 0),rgb(141, 139, 139));
+ 
+ 
+ }
+ #Header img{
+   height: 50px;
+ }
+  #Header.Navbar {
+   background-color: #6b6bf0;
+   
+ }
+ #Header .custom-navbar .nav-link svg {
+   color: rgb(254, 254, 255) !important;
+ }
+ 
+ 
+ #Navbar .nav-link {
+   margin-right: 10px; 
+ }
+ 
+ 
+ #Footer {
+   background: linear-gradient(rgb(22, 22, 22),rgb(9,15,34));
+ }
+ #Footer img{
+   width: 100%;
+ }
+ .slider-image {
+   height: 300px;
+   width: 100%;
+   object-fit: contain;
+ }
+ 
+ 
+ #login {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh; 
+   background-color: #f8f9fa; 
+ }
+ 
+ .card {
+   border-radius: 10px;
+   max-width: 450px; 
+ }
+ /* Category Card Hover Effect */
+.category-card {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.category-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Product Card Hover Effect */
+.product-card {
+  transition: all 0.3s ease-in-out;
+}
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+/* See More Button Hover */
+.see-more-btn {
+  border-radius: 25px;
+  padding: 6px 12px;
+  font-size: 14px;
+  transition: all 0.3s ease-in-out;
+}
+.see-more-btn:hover {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+/* ProductsCardDetails*/
+.thumbnail-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.thumbnail {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.thumbnail.active {
+  border: 2px solid #ff8800;
+}
+
+.main-image-container {
+  padding: 20px;
+}
+
+.main-image {
+  max-height: 450px;
+  object-fit: contain;
+}
+
+.price-tag {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: #777;
+}
+
+.discount {
+  color: #cc0c39;
+  font-weight: bold;
+}
+
+.btn-buy-now {
+  background-color: #ff9900;
+  border-color: #ff9900;
+}
+
+.btn-add-cart {
+  background-color: #ffd814;
+  border-color: #ffd814;
+  color: #000;
+}
+
+.rating {
+  color: #ff9900;
+}
+.thumbnail.active {
+  border: 2px solid #007bff;
+  padding: 2px;
+  border-radius: 5px;
+}
+/* Add this to your CSS file or in a <style> tag */
+.card:hover {
+  transform: translateY(-5px);
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+  transition: transform 0.3s;
+}
+
+.card-img-top:hover {
+  transform: scale(1.05);
+}
+/* CSS */
+.thumbnail-container {
+  max-height: 300px;
+  overflow-y: auto;
+}
+@media (max-width: 768px) {
+  .search-container {
+    width: 50%;
+    margin-top: 10px;
+  }
+  
+}
+
+
+
+.icon-hover:hover {
+  background-color: black;
+}
+
+.search-container {
+  position: relative;
+  width: 50%;
+  margin-left: 0;         /* Ensures no auto-centering */
+  margin-right: auto;     /* Pushes it to the left */
+}
+
+
+.navbar-animation {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.navbar-animation.scrolled {
+  padding: 5px 10px !important;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Logo animation */
+.logo-container {
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.logo-animation {
+  transition: transform 0.3s ease;
+}
+
+.logo-container:hover .logo-animation {
+  transform: scale(1.05);
+}
+
+/* Search bar animation */
+.search-container {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.search-input {
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-icon {
+  position: absolute;
+  right: 15px;
+  color: #666;
+  transition: color 0.3s ease;
+}
+
+.search-focused .search-input {
+  border-color: rgb(71, 114, 199);
+  box-shadow: 0 0 0 4px rgba(71, 114, 199, 0.2);
+}
+
+.search-focused .search-icon {
+  color: rgb(71, 114, 199);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Hamburger menu animations */
+.hamburger-button {
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+.slider {
+  margin-top: 100px;
+}
+@media (max-width: 768px) {
+  .slider-container {
+    margin-top: 120px;
+  }
+}
+.hamburger-button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.hamburger-icon {
+  transition: transform 0.3s ease;
+}
+
+.hamburger-button:hover .hamburger-icon {
+  transform: rotate(90deg);
+}
+@media (max-width: 768px) {
+  .search-container {
+    width: 80% !important;
+  }
+
+  .search-container input {
+    font-size: 14px;
+    padding-left: 1rem;
+    padding-right: 2rem;
+  }
+}
+
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.header-animated {
+  animation: fadeInDown 0.6s ease-in-out;
+}
+
+.slide-down {
+  animation: slideDown 0.3s ease-in-out;
+}
+
+.icon-hover:hover {
+  color: #ffc107 !important;
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-brand img:hover {
+  transform: scale(1.05) rotate(-2deg);
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link {
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  text-shadow: 0 0 8px #ffffff;
+}
+
+/* Mobile horizontal scroll */
+.category-scroll {
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 10px 0;
+  background-color: rgb(71, 114, 199);
+}
+
+.category-scroll a {
+  display: inline-block;
+  color: white;
+  padding: 8px 16px;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.category-scroll a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+}
+.transition-nav {
+  transition: transform 0.3s ease-in-out;
+}
+.hidden-nav {
+  transform: translateY(-100%);
+}
+.visible-nav {
+  transform: translateY(0);
+}
+.icon-hover {
+  position: relative;
+}
+
+.icon-hover::after {
+  content: attr(data-title);
+  position: absolute;
+  top: 120%; /* Puts it below the icon */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  padding: 3px 6px;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease-in-out;
+  z-index: 10;
+}
+
+.icon-hover:hover::after {
+  opacity: 1;
+}
+
+.transition-nav {
+  transition: transform 0.3s ease-in-out;
+}
+
+.visible-nav {
+  transform: translateY(0);
+}
+
+.hidden-nav {
+  transform: translateY(-100%);
+}
+
+.category-scroll::-webkit-scrollbar {
+  display: none; /* Optional: Hide scrollbar in mobile */
+}
+
+
+
+
+
